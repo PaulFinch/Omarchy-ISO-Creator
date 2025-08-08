@@ -39,8 +39,4 @@ Omarchy will be installed in `Bare mode`
   - Configure the remaining settings, such as disk configuration
   - Launch Install
   - Select, `Exit archinstall` when finished
-<<<<<<< HEAD
-- Omarchy Setup will launch automatically and reboot if successful
-=======
-- Omarchy Setup will launch automatically and shutdown if successfully
->>>>>>> ce135d8f6c8e3c1e8192a19fafced16cf37b9d04
+- Omarchy Setup will launch automatically and shutdown if successful
