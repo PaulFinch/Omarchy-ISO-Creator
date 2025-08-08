@@ -34,7 +34,8 @@ Omarchy will be installed in `Bare mode`
 - `./test_this.sh`
 
 ## How to use the ISO
-- Install the system using the ISO.
+- Create USB Media with Balena Etcher
+- Install the System using the USB Media.
 - The archinstall will launch automatically
   - Configure the remaining settings, such as disk configuration
   - Launch Install
