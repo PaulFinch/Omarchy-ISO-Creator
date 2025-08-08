@@ -5,7 +5,7 @@ fi
 
 ~/.automated_script.sh
 
-loadkeys fr
+#loadkeys fr
 
 # Install Arch
 archinstall --config /root/arch_config.json --creds /root/arch_creds.json --skip-version-check
