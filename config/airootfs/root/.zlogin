@@ -20,7 +20,7 @@ arch-chroot /mnt /root/install_omarchy.sh
 
 # Clean & Halt
 umount -R /mnt
-rm /root/install_omarchy.sh
+rm -f /mnt/root/install_omarchy.sh
 shutdown -h 0
 
 exit 0
