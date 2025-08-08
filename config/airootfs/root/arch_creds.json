@@ -1,0 +1,11 @@
+{
+    "encryption_password": "changeme",
+    "root_enc_password": "changeme",
+    "users": [
+        {
+            "enc_password": "changeme",
+            "sudo": true,
+            "username": "changeme"
+        }
+    ]
+}

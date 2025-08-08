@@ -1,0 +1,51 @@
+{
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pipewire"
+    },
+    "locale_config": {
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US"
+    },
+    "hostname": "omarchy",
+    "bootloader": "Systemd-boot",
+    "debug": false,
+    "no_pkg_lookups": false,
+    "ntp": true,
+    "offline": false,
+    "packages": [
+        "curl",
+        "nano",
+        "wget",
+        "vim",
+        "unzip",
+        "zip",
+        "jq",
+        "openssh",
+        "git"
+    ],
+    "parallel downloads": 0,
+    "profile_config": {
+        "gfx_driver": null,
+        "greeter": null,
+        "profile": {
+            "custom_settings": {},
+            "details": [],
+            "main": "Minimal"
+        }
+    },
+    "script": "guided",
+    "silent": false,
+    "skip_ntp": false,
+    "skip_version_check": true,
+    "swap": true,
+    "timezone": "UTC",
+    "network_config": {
+        "type": "iso"
+    },
+    "custom_commands": [
+        "mount /dev/loop0 /mnt/ -o ro && cp -rf /mnt/root/install_omarchy.sh /root/ && umount /mnt",
+        "chmod +x /root/install_omarchy.sh"
+    ]
+}
